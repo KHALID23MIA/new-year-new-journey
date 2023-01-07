@@ -67,7 +67,7 @@ p {
 
 .failure-list {
 
-    list-style: none;
+    /* list-style: none; */
     list-style-image: url(../images/icons/icons8-done--16.png);
 
 }
