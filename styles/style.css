@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ...........................style of header.................. */
+.head {
+    background-image: url('../images/banner/banner3.png');
+    height: 800px;
+    width: 100%;
+}
+
+.banner {
+    position: absolute;
+    top: 215px;
+    right: 200px;
+    left: 845px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.ban-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+
+.ban-description {
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    /* border-color: #FFFFFF; */
+    border: none;
+}
+
+
+
+/* .........................main........................ */
+main {
+    margin: 140px 205px;
+
+}
+
+/* .......................main/failure section................... */
+
+.failure {
+    display: flex;
+    gap: 90px;
+    background-color: aqua;
+}
+
+.failure-content {
+    margin-top: 250px;
+}
+
+.failure-content>h2,
+p {
+    margin-bottom: 25px;
+}
+
+.failure-list {
+
+    list-style: none;
+    list-style-image: url(../images/icons/icons8-done--16.png);
+
+}
+
+.failure-list>li::before {
+    /* content: url('../images/icons/');
+    
+} */
