@@ -3,7 +3,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* ...........................style of header.................. */
+/* .............................................................style of header........................................... */
+
+
+
 .head {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -14,6 +17,9 @@
     border: none;
 }
 
+
+
+
 .banner {
     position: absolute;
     top: 170px;
@@ -23,11 +29,18 @@
     color: #FFFFFF;
 }
 
+
+
+
 .ban-title {
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 25px;
 }
+
+
+
+
 
 .ban-description {
     margin-bottom: 30px;
@@ -37,6 +50,9 @@
 
 }
 
+
+
+
 .button {
     width: 160px;
     height: 64px;
@@ -44,43 +60,68 @@
     font-size: 20px;
     color: #005FAC;
     border-radius: 5px;
-    /* border-color: #FFFFFF; */
     border: none;
 
 }
 
 
 
-/* .........................main........................ */
+
+
+/* ...................................................................main.............................................. */
 main {
-    background-color: #76cfec;
+
     padding: 140px 205px;
     margin: 5px;
 }
 
-/* .......................main/failure section................... */
+
+
+
+
+
+
+
+/* ...........................................................main/failure section..................................... */
+
+
+
 
 .failure {
     display: flex;
     gap: 90px;
-    /* background-color: aqua; */
+    text-align: right
 }
+
+
 
 .failure-content {
-    margin-top: 250px;
+    margin-top: 150px;
+
+
 }
 
-.failure-content>h2,
-p {
-    margin-bottom: 25px;
+
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 35px;
 }
+
+
 
 .failure-description {
     font-size: 16px;
     line-height: 26px;
-
+    margin-bottom: 25px;
     color: #444343;
 }
+
+
+
+
+
 
 .failure-list {
 
@@ -90,16 +131,75 @@ p {
     font-size: 16px;
     line-height: 25px;
     color: #444343;
+    margin-left: 85px;
 
 }
 
-/*....................main/Plan Secton........
-*/
+
+
+
+
+
+
+
+
+/* ................................................................main/encourage.............................................. */
+
+
+.encourage {
+
+    background-repeat: no-repeat;
+    margin-top: 180px;
+    color: #29bccc;
+    display: flex;
+
+
+}
+
+.encourage>.img {
+    border-radius: 5px;
+    padding-top: 30px;
+
+}
+
+
+.encourage-blog {
+
+    position: relative;
+    text-align: justify;
+    text-align: right;
+
+
+}
+
+.encourage-blog>h2 {
+
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 35px;
+    color: black;
+}
+
+.encourage-blog>p {
+
+
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*.................................................................main/Plan Section..............................................*/
 
 
 .plan {
     padding-top: 130px;
 }
+
+
 
 .plan-title {
     display: flex;
@@ -109,10 +209,14 @@ p {
     font-size: 30px;
 }
 
+
+
 .plan-item {
     display: flex;
     justify-content: space-around;
 }
+
+
 
 .plan-item div h3 {
     margin-top: 15px;
@@ -123,7 +227,11 @@ p {
 
 
 
-/* .............main/mindset .........*/
+/* ..............................................................main/mindset .............................................*/
+
+
+
+
 .mindset {
     margin-top: 130px;
     height: 181px;
@@ -147,7 +255,7 @@ p {
 
 
 
-/* ....................footer................ */
+/* .....................................................................footer.......................................... */
 .con-info {
     background-color: black;
     width: 100%;
@@ -161,6 +269,7 @@ p {
 
 }
 
+/* .................................................................footer/future.................................. */
 .future {
     width: 485px;
     height: 317px;
@@ -188,6 +297,9 @@ p {
     gap: 70px;
 
 }
+
+
+/* ......................................................footer/subscribe.............................................. */
 
 .subscribe {
     margin-top: 100px;
