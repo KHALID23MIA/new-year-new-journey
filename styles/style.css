@@ -71,8 +71,3 @@ p {
     list-style-image: url(../images/icons/icons8-done--16.png);
 
 }
-
-.failure-list>li::before {
-    /* content: url('../images/icons/');
-    
-} */
